@@ -3,10 +3,10 @@ public abstract class Person {
     private String lastName;
     private int personAge;
     private Person partner;
-    Gender personGender;
+    protected Gender personGender;
 
-    public static final int MALE_RETIREMENT_AGE = 65;
-    public static final int FEMALE_RETIREMENT_AGE = 60;
+    private static final int MALE_RETIREMENT_AGE = 65;
+    private static final int FEMALE_RETIREMENT_AGE = 60;
 
     public Person(String fName, String sName, int age){
         this.firstName = fName;
